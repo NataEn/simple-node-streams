@@ -10,6 +10,7 @@ if (!filePath) {
   process.exit(1);
 }
 //if path provided then read the file
+//this is done in an async manner, but chunks are read sequencially
 const readStream = fs.createReadStream(filePath);
 readStream.on("data", (chunk) => {
   console.log("starting to read the file...");
