@@ -1,0 +1,19 @@
+{
+  "name": "simple-nodejs-streams",
+  "version": "1.0.0",
+  "description": "simple examples of working with streams",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NataEn/simple-node-streams.git"
+  },
+  "author": "Natalie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NataEn/simple-node-streams/issues"
+  },
+  "homepage": "https://github.com/NataEn/simple-node-streams#readme"
+}
